@@ -26,3 +26,4 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
 - Marjini max marjin yapacak iki point bizim support vektörümüzdür
 - Support Vector Machine , Logistic Regression ile benzer bir sınıflandırma algoritmasıdır
 - SVM , aynı zamanda **"doğrusal"** ve **"doğrusal olmayan"** verileride sınıflandırabilir ancak genellikle verileri **doğrusal** olarak sınıflandırmaya çalışır
+- SVM , verileri doğrusal olarak sınıflandıramadiği zaman **Kernel Trick(Çekirdek Hilesi)** yöntemine ile bu durumu halledebiliriz
