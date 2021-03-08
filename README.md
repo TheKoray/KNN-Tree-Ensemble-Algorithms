@@ -27,7 +27,9 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
 - Support Vector Machine , Logistic Regression ile benzer bir sınıflandırma algoritmasıdır
 - SVM , aynı zamanda **"doğrusal"** ve **"doğrusal olmayan"** verileride sınıflandırabilir ancak genellikle verileri **doğrusal** olarak sınıflandırmaya çalışır
 ## Kernel Trick
-- SVM , verileri doğrusal olarak sınıflandıramadiği zaman **Kernel Trick(Çekirdek Hilesi)** yöntemine ile bu durumu çözer
+- SVM , verileri doğrusal olarak sınıflandıramadiği zaman **Kernel Trick(Çekirdek Hilesi)** yöntemine ile bu durumu çözer.En çok kullanılan **Kernel Trick**;
+    - **Polynomial Kernel**
+    - **Gaussian RBF**
 # Decision Tree Classifier 
 - Decision Tree algoritmasının amacı , veri seti içerisinde ki karmaşık yapıları basit karar yapılarına dönüştürmektir.
 - Bir ağaç algoritmasıdır.
