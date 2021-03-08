@@ -29,7 +29,7 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
 ## Kernel Trick
 - SVM , verileri doğrusal olarak sınıflandıramadiği zaman **Kernel Trick(Çekirdek Hilesi)** yöntemine ile bu durumu çözer.En çok kullanılan **Kernel Trick**;
     - **Polynomial Kernel**: Problemi çözmek için 2 Boyuttan 3 Boyut ve daha fazla boyutta işlem yapıyormuş gibi çözüyoruz.Sınıflarımızı  SVM ile doğrusal bir çizgi oluşturarak ayırabiliriz.
-    - **Gaussian RBF**: Her bir noktanın belirli bir noktaya benzerliğini **Normal Dağılım** ile hesaplar ve sınıflandırır.
+    - **Gaussian RBF Kernel**: Her bir noktanın belirli bir noktaya benzerliğini **Normal Dağılım** ile hesaplar ve sınıflandırır.
 # Decision Tree Classifier 
 - Decision Tree algoritmasının amacı , veri seti içerisinde ki karmaşık yapıları basit karar yapılarına dönüştürmektir.
 - Bir ağaç algoritmasıdır.
