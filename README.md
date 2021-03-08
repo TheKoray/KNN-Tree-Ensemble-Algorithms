@@ -19,7 +19,7 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
    - **Sınıflandırma yaparken** ; En sık sınıf tahmin değeri olarak verilir
    - **Regresyon'da** ; En yakında bulunan k kadar gözlemin ortalama Değeri tahmin değeri olarak verilir
 
-# Destek Vektör Makineleri - SVM 
+# Support Vector Machines - SVM 
 
 - Amacımız iki sınıf arasındaki marjinin maximum olmasını sağlayacak doğruyu ortaya çıkarmaya çalışmaktır
 - SVM bizim için max marjin bulur 
