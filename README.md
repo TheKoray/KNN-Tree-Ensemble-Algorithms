@@ -29,3 +29,4 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
 ## Kernel Trick
 - SVM , verileri doğrusal olarak sınıflandıramadiği zaman **Kernel Trick(Çekirdek Hilesi)** yöntemine ile bu durumu çözer
 # Decision Tree Classifier 
+- Decision Tree algoritmasının amacı , veri seti içerisinde ki karmaşık yapıları basit karar yapılarına dönüştürmektir.
