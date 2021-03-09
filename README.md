@@ -33,6 +33,8 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
 # Decision Tree Classifier 
 - Decision Tree algoritmasının amacı , veri seti içerisinde ki karmaşık yapıları basit karar yapılarına dönüştürmektir.
 - Datayı Split etmek **(Ayırmak)** çok önemlidir.**Information Entropy**'e göre datayı split ederiz.
+    - **Entropi** ; Belirli bir veri kümesinde ki düzensizliği ve dayanıklığı ölçen bir istatiksel metriktir.
+    - Veri Kümesinde ki düzensizliğin artması ile doğru orantılı olarak entropi değeri de artmaktadır.
 - Bir ağaç algoritmasıdır.
 - Ağacın çok fazla dallanması örnek veri setinin çok iyi temsil edilmesini ifade eder.Fakat bu durum **Overfitting**'e yol açar.
 - **Overfitting**'i engellemek amacıyla ağacı budama işlemi ile tabir edilen karmaşıklık parametresi işlemi ile engelliyoruz.Belirli noktadan sonra bu dallanma işlemini durduruluyor.
