@@ -58,4 +58,4 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
 # Random Forest 
 
 - Ensemble üyesidir.
-- Çok güçlü bir algoritmalardır.Çünkü birden
+- Çok güçlü bir algoritmalardır.Çünkü birçok farklı algoritmayı birleştiriyor.Random Forest'ta birden çok **Decision Tree** oluştuuryoruz.
