@@ -53,6 +53,6 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
    - Örneklerin hepsi aynı sınıfa ait 
    - Örnekleri bölecek özellik kalmaması
    - Kalan özelliklerin değerlerini taşıyan örneğin olmaması
-  - Ve bu adımlar tamamlanarak **Karar Ağacı** oluşturulmuş olur.
+- Ve bu adımlar tamamlanarak **Karar Ağacı** oluşturulmuş olur.
 
 # Random Forest 
