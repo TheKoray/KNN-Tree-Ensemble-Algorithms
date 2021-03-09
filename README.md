@@ -56,3 +56,6 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
 - Ve bu adımlar tamamlanarak **Karar Ağacı** oluşturulmuş olur.
 
 # Random Forest 
+
+- Ensemble üyesidir.
+- Çok güçlü bir algoritmalardır.Çünkü birden
