@@ -36,6 +36,13 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
     - **Entropi** ; Belirli bir veri kümesinde ki düzensizliği ve dayanıklığı ölçen bir istatiksel metriktir.
     - Veri Kümesinde ki düzensizliğin artması ile doğru orantılı olarak entropi değeri de artmaktadır.
 - Bir ağaç algoritmasıdır.
+- **Karar Ağaçları** ; 
+    - **Kök(Root)**
+    - **Düğümler(Nodes)**
+    - **Yapraklar(Leaf)** ile oluşur.
+- İlk hücrelerine **kök** adı verilir.Her gözlem kökteki koşuala göre **Evet** veya **Hayır** olarak sınıflandırılır.
+- Kök hücrelerden sonra yani kök hücrelerin altında **düğümler** gelir.Her bir gözlem **düğümler** yardımıyla sınıflandırılır.
+   - **Düğüm Sayısı** arttıkça **Modelin Karmaşıklığı** da artar. 
 - Ağacın çok fazla dallanması örnek veri setinin çok iyi temsil edilmesini ifade eder.Fakat bu durum **Overfitting**'e yol açar.
 - **Overfitting**'i engellemek amacıyla ağacı budama işlemi ile tabir edilen karmaşıklık parametresi işlemi ile engelliyoruz.Belirli noktadan sonra bu dallanma işlemini durduruluyor.
 - Karmaşıklık Parametresi, Ceza parametresi(penalty) olarakta adlandırılır.
