@@ -41,10 +41,18 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
     - **Düğümler(Nodes)**
     - **Yapraklar(Leaf)** ile oluşur.
 - İlk hücrelerine **kök** adı verilir.Her gözlem kökteki koşuala göre **Evet** veya **Hayır** olarak sınıflandırılır.
-- Kök hücrelerden sonra yani kök hücrelerin altında **düğümler** gelir.Her bir gözlem **düğümler** yardımıyla sınıflandırılır.
+- Kök hücrelerden sonra yani kök hücrelerin altında **Düğümler** gelir.Her bir gözlem **düğümler** yardımıyla sınıflandırılır.
    - **Düğüm Sayısı** arttıkça **Modelin Karmaşıklığı** da artar. 
+- Karar Ağaçlarının son hücresinde ise **Yapraklar** bulunur.Yapraklar bizim çıktılarımız, yani sonuçlarımızı verir.
 - Ağacın çok fazla dallanması örnek veri setinin çok iyi temsil edilmesini ifade eder.Fakat bu durum **Overfitting**'e yol açar.
 - **Overfitting**'i engellemek amacıyla ağacı budama işlemi ile tabir edilen karmaşıklık parametresi işlemi ile engelliyoruz.Belirli noktadan sonra bu dallanma işlemini durduruluyor.
 - Karmaşıklık Parametresi, Ceza parametresi(penalty) olarakta adlandırılır.
+## Karar Ağacı Adımları
+- Her özellik için ayrı ayrı **bilgi kazancı(Information Gain)** hesaplanır.Daha sonra bilgi kazancı **en yüksek** olan **kök** olarak alınır.
+- Bu işlemler her düğüm için aşağıdaki durumlardan biri oluşuncaya kadar devam eder.
+   - Örneklerin hepsi aynı sınıfa ait 
+   - Örnekleri bölecek özellik kalmaması
+   - Kalan özelliklerin değerlerini taşıyan örneğin olmaması
+  - Ve bu adımlar tamamlanarak **Karar Ağacı** oluşturulmuş olur.
 
 # Random Forest 
