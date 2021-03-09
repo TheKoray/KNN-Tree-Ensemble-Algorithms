@@ -32,7 +32,10 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
     - **Gaussian RBF Kernel**: Her bir noktanın belirli bir noktaya benzerliğini **Normal Dağılım** ile hesaplar ve sınıflandırır.
 # Decision Tree Classifier 
 - Decision Tree algoritmasının amacı , veri seti içerisinde ki karmaşık yapıları basit karar yapılarına dönüştürmektir.
+- Datayı Split etmek **(Ayırmak)** çok önemlidir.**Information Entropy**'e göre datayı split ederiz.
 - Bir ağaç algoritmasıdır.
 - Ağacın çok fazla dallanması örnek veri setinin çok iyi temsil edilmesini ifade eder.Fakat bu durum **Overfitting**'e yol açar.
 - **Overfitting**'i engellemek amacıyla ağacı budama işlemi ile tabir edilen karmaşıklık parametresi işlemi ile engelliyoruz.Belirli noktadan sonra bu dallanma işlemini durduruluyor.
 - Karmaşıklık Parametresi, Ceza parametresi(penalty) olarakta adlandırılır.
+
+# Random Forest 
