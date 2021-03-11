@@ -60,7 +60,10 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
 - Ensemble üyesidir.
 - Çok güçlü bir algoritmalardır.Çünkü birçok farklı algoritmayı birleştiriyor.Random Forest'ta birden çok **Decision Tree** oluşturuyoruz.
 - **Random  Forest**'ta gözlemlerdeki rassallığı , gözlemlere de değişkenlere de uygulanarak hem gözlem seçiminde hem de değişken seçiminde rassallığı sağlayarak başarılı bir algoritma olmuştur
-- Decision Tree en büyük problemlerinden biri **"Aşırı öğrenme(Overfitting)"**'di.
+- Decision Tree en büyük problemlerinden biri **"Aşırı öğrenme(Overfitting)"** idi.
+- Random Forest , bu problemi çözmek için veri setinden ve öznitelik setinde rassal olarak 100'lerce **subdata**'lar seçiyor ve bunları eğitiyor.Bu şekilde 100'lerce **Karar Ağacı** oluşturulmuş oluyor ve her bir **Karar Ağacı** **Bireysel** olarak tahminde bulunuyor.
+- **Regresyon'da** ; Ağaçların tahminlerinin "**Ortalamasını**" verir
+- **Sınıflandırma'da** ; Ağaçların tahminlerinin arasından en çok oy alanı bize verir.
 
 
 
