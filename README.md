@@ -64,7 +64,7 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
 - Random Forest , bu problemi çözmek için veri setinden ve öznitelik setinde rassal olarak 100'lerce **subdata**'lar seçiyor ve bunları eğitiyor.Bu şekilde 100'lerce **Karar Ağacı** oluşturulmuş oluyor ve her bir **Karar Ağacı** **Bireysel** olarak tahminde bulunuyor.
 - **Regresyon'da** ; Ağaçların tahminlerinin "**Ortalamasını**" verir
 - **Sınıflandırma'da** ; Ağaçların tahminlerinin arasından **En çok oy alanı** bize verir.
-#Ensemble Learning -  Bagging ve Boosting
+# Ensemble Learning -  Bagging ve Boosting
 
 
 
