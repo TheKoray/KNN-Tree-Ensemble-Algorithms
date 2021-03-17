@@ -68,5 +68,9 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
 
 - Makine Öğrenimindeki **Topluluk Öğrenme(Ensemble Learning)** modelleri , Genel performansı iyileştirmek için birden çok modelden oluşur ve her modelden alınan kararları birleştirir.
 - Tekli modellere göre farklı modellerde daha iyi ve sağlıklı sonuçlar elde ederiz.
+## Bagging 
+- Orjinal Veri Setinden **subset(alt küme)** oluştururuz.
+- Bu alt kümelerin her birinden **Model** oluştururuz.
+- Bu Modellerden **Tahmin değerleri** oluştururuz
 
 
