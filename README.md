@@ -70,7 +70,13 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
 - Tekli modellere göre farklı modellerde daha iyi ve sağlıklı sonuçlar elde ederiz.
 ## Bagging 
 - Orjinal Veri Setinden **subset(alt küme)** oluştururuz.
-- Bu alt kümelerin her birinden **Model** oluştururuz.
-- Bu Modellerden **Tahmin değerleri** oluştururuz
+- Bu alt kümelerin her birinden **Model** , **Ağaçlar** oluştururuz.
+- Bu Modellerden **Tahmin değerleri** oluştururuz.
+- Burada **Ağaçlar** birbirinden bağımsızdır.
+- **Varyansı** düşüren , **Overfitting**'e karı dayanıklıb bir yöntemdir.
+## Boosting 
+- Zayıf öğrenicileri bi araya getirip güçlü bi öğrenici ortaya çıkarır.
+- Artıklar üzerine tek bir tahminsel model formunda olan **Modeller**, **Ağaçlar** oluştururuz.Seri içerisinde ki bir model seride ki bir önceki **Ağacın(Modelin)** tahmin **Artıklarının(Residuals)** üzerine kurularak oluşturulur.
+- Burada **Ağaçlar** birbirine bağımlıdır. 
 
 
