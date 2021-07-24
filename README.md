@@ -28,6 +28,8 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
 
 # Support Vector Machines - SVM 
 
+![Support Image](https://miro.medium.com/max/606/1*RWhsAxYTbneAsqqZuh373Q.png)
+
 - Amacımız iki sınıf arasındaki marjinin maximum olmasını sağlayacak doğruyu ortaya çıkarmaya çalışmaktır
 - SVM bizim için max marjin bulur 
 - Marjini max marjin yapacak iki point bizim support vektörümüzdür
