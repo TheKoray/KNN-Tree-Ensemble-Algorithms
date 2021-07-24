@@ -5,6 +5,9 @@
 KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken sınıflandırılması yaptım.Modellerin önemli parametrelerini optimize ederek model için en iyi optimum değerler ile yeni modeler oluşturup bu modellerin başarılarını karşılaştırdık
 
 # K-Nearest Neighbors
+
+![KNN image](https://www.researchgate.net/profile/Saleh-Alaliyat/publication/267953942/figure/fig14/AS:295388776026147@1447437580523/K-nearest-neighbor-algorithm-illustration-The-green-circle-is-the-sample-which-is-to-be.png)
+
 - İlk sınıflandırma yaptığımız algoritma, KNN algoritmasıdır.
 - Tahminler gözlem benerliğine göre yapılır.KNN algoritması sınıflandırma yaparken, sınıflandırma yapacağımız yeni verimizin çevresindeki en yakın , bizim belirlediğimiz k sınıf sayısının sıklığına göre sınıflandırma yapar.
 - Çevresindeki en yakın verileri bulabilmek için uzaklık hesabı yapar.Uzaklık hesabı yapmak için 3 tip uzaklık fonksiyonu kullanılır.Bunlar ;
@@ -15,7 +18,6 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
 
 ## KNN Basamakları
 
-![KNN image](https://www.researchgate.net/profile/Saleh-Alaliyat/publication/267953942/figure/fig14/AS:295388776026147@1447437580523/K-nearest-neighbor-algorithm-illustration-The-green-circle-is-the-sample-which-is-to-be.png)
 
 - İlk olarak komşu sayısı(**k değeri**) belirlenir.KNN Algoritmamızda bu değerin belirlendiği parametre **n_neighbors** parametresidir.
 - Bilinmeyen nookta ile diğer tüm noktalar arasındak- ki uzaklık hesaplanır.(Yukarıdaki uzaklık hesabı ile). Algoritmamızda uzaklık hesabının belirtildiği parametre **metric** parametresidir.
