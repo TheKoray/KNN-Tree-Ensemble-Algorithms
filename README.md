@@ -21,7 +21,7 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
 - Bilinmeyen nookta ile diğer tüm noktalar arasındak- ki uzaklık hesaplanır.(Yukarıdaki uzaklık hesabı ile). Algoritmamızda uzaklık hesabının belirtildiği parametre **metric** parametresidir.
 - Hesaplanan Uzaklıklar sıralanır ve belirlenen k sayısına göre en yakın(uzaklık hesabına göre) olan k gözlemi seçer
    
-   - **Sınıflandırma yaparken** ; En sık sınıf tahmin değeri olarak verilir
+   - **Sınıflandırma** yaparken ; En sık sınıf tahmin değeri olarak verilir
    - **Regresyon'da** ; En yakında bulunan k kadar gözlemin ortalama Değeri tahmin değeri olarak verilir
 
 # Support Vector Machines - SVM 
