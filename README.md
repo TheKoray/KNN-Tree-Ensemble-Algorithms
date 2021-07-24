@@ -40,15 +40,21 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
     - **Polynomial Kernel**: Problemi çözmek için 2 Boyuttan 3 Boyut ve daha fazla boyutta işlem yapıyormuş gibi çözüyoruz.Sınıflarımızı  SVM ile doğrusal bir çizgi oluşturarak ayırabiliriz.
     - **Gaussian RBF Kernel**: Her bir noktanın belirli bir noktaya benzerliğini **Normal Dağılım** ile hesaplar ve sınıflandırır.
 # Decision Tree Classifier 
+
+![Decision Image](https://miro.medium.com/max/6400/1*tPLDGP7fkr_-Iltk_kVTDw.png)
+
 - Decision Tree algoritmasının amacı , veri seti içerisinde ki karmaşık yapıları basit karar yapılarına dönüştürmektir.
 - Datayı Split etmek **(Ayırmak)** çok önemlidir.**Information Entropy**'e göre datayı split ederiz.
     - **Entropi** ; Belirli bir veri kümesinde ki düzensizliği ve dayanıklığı ölçen bir istatiksel metriktir.
     - Veri Kümesinde ki düzensizliğin artması ile doğru orantılı olarak entropi değeri de artmaktadır.
 - Bir ağaç algoritmasıdır.
+
 - **Karar Ağaçları** ; 
+ 
     - **Kök(Root)**
     - **Düğümler(Nodes)**
     - **Yapraklar(Leaf)** ile oluşur.
+    
 - İlk hücrelerine **kök** adı verilir.Her gözlem kökteki koşuala göre **Evet** veya **Hayır** olarak sınıflandırılır.
 - Kök hücrelerden sonra yani kök hücrelerin altında **Düğümler** gelir.Her bir gözlem **düğümler** yardımıyla sınıflandırılır.
    - **Düğüm Sayısı** arttıkça **Modelin Karmaşıklığı** da artar. 
@@ -57,11 +63,14 @@ KNN,Decision Tree ve Ensemble Algoritmalarını kullanarak kategorik değişken 
 - **Overfitting**'i engellemek amacıyla ağacı budama işlemi ile tabir edilen karmaşıklık parametresi işlemi ile engelliyoruz.Belirli noktadan sonra bu dallanma işlemini durduruluyor.
 - Karmaşıklık Parametresi, Ceza parametresi(penalty) olarakta adlandırılır.
 ## Karar Ağacı Adımları
+
 - Her özellik için ayrı ayrı **bilgi kazancı(Information Gain)** hesaplanır.Daha sonra bilgi kazancı **en yüksek** olan **kök** olarak alınır.
 - Bu işlemler her düğüm için aşağıdaki durumlardan biri oluşuncaya kadar devam eder.
+
    - Örneklerin hepsi aynı sınıfa ait 
    - Örnekleri bölecek özellik kalmaması
    - Kalan özelliklerin değerlerini taşıyan örneğin olmaması
+   
 - Ve bu adımlar tamamlanarak **Karar Ağacı** oluşturulmuş olur.
 
 # Random Forest 
